@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Rubik+Dirt&family=Titillium+Web:wght@300&display=swap');
+
+header{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1{
+    font-size:10em;
+    font-family: 'Chakra Petch', sans-serif;
+}
+p, a{
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+.bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.bar_op{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bar_op:hover{
+    background-color: gray;
+}
+.icon{
+    height:5em;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
