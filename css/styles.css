@@ -2,65 +2,215 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Rubik+Dirt&family=Titillium+Web:wght@300&display=swap');
 
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0px;
 }
 
-header{
+.pres {
     background-image: url("../img/woman-codes.jpg");
     background-size: cover;
     color: #000000;
-    height: 500px;
-    position: relative;
+    height: 650px;
+    position: cover;
+    background-attachment: fixed;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
-    
+
 }
 
-h1{
+h1 {
     background-color: rgba(255, 255, 255, 0.384);
-    font-size:5rem;
+    font-size: 5.5rem;
     font-family: 'Chakra Petch', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
 }
-p, a{
-    font-family: 'Titillium Web', sans-serif;;
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.bar{
+p,
+h3,
+a {
+    font-family: 'Titillium Web', sans-serif;
+    ;
+}
+
+.bar {
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+
 }
-.bar_op{
+
+.bar_op {
     height: 60px;
     width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
-.bar_op:hover{
+
+.bar_op:hover {
     background-color: rgba(255, 255, 255, 0.384);
 }
-.icon{
-    height:50px;
+
+.sections {
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
-.contact{
+.about,
+.skills,
+.proyects {
+    padding-top: 60px;
+}
+
+.cards {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    background-color: rgba(102, 98, 98, 0.384);
+    border-radius: 5%;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    z-index: auto;
+}
+
+.presentation {
+    height: 70%;
+    overflow: hidden;
+}
+
+/* .presentation img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  } */
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
     margin: 20px;
+}
+
+.icon {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*  --------------------------*/
+.slider {
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding-top: 5px;
+    display: flex;
+    
+    
+    width: 400%;
+}
+
+.slider ul:hover{
+    animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.slider img {
+    width: 95%;
+    height: 70%;
+    z-index: -1;
+    border-radius: 5%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:0px) {
+
+    .slider,
+    .slider ul,
+    .slider img {
+        height: 100vh;
+    }
 }
