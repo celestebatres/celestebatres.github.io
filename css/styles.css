@@ -25,8 +25,10 @@ body {
 
 a {
     color: inherit;
-    text-decoration: none;
+}
 
+a:hover{
+    color: inherit;
 }
 
 h1 {
@@ -48,7 +50,6 @@ p,
 h3,
 a {
     font-family: 'Titillium Web', sans-serif;
-    ;
 }
 
 .bar {
@@ -62,8 +63,6 @@ a {
     top: 0;
     width: 100%;
     z-index: 10;
-
-
 }
 
 .bar_op {
@@ -92,6 +91,15 @@ a {
     padding-top: 60px;
 }
 
+.me{
+    margin: 100px;
+}
+
+.about p{
+    font-size: larger;
+    text-align: center;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +112,7 @@ a {
     border-radius: 5%;
     width: 500px;
     height: 400px;
-    margin: 10px;
+    margin: 20px;
     z-index: auto;
 }
 
@@ -125,6 +133,16 @@ a {
     text-align: center;
 }
 
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    height: 80px;
+    margin:30px;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -138,6 +156,8 @@ a {
 }
 
 
+
+
 /*  --------------------------*/
 .slider {
     width: 100%;
@@ -146,27 +166,25 @@ a {
     overflow: hidden;
 }
 
-.slider ul{
-    padding-top: 5px;
+.first{
     display: flex;
     
     
     width: 400%;
 }
 
-.slider ul:hover{
+.first:hover{
     animation: cambio 10s infinite alternate linear;
 }
 
-.slider li {
+.second {
     width: 100%;
     list-style: none;
     margin-right: 10px;
-    margin-left: 5px;
 }
 
 .slider img {
-    width: 95%;
+    width: 102%;
     height: 70%;
     z-index: -1;
     border-radius: 5%;
@@ -209,7 +227,7 @@ a {
 @media only screen and (min-width:0px) and (max-width:0px) {
 
     .slider,
-    .slider ul,
+    .first,
     .slider img {
         height: 100vh;
     }
