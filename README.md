@@ -5,4 +5,4 @@
 Professional Profile
 Hello, my name is Celeste. I'm a Systems Engineer who is always excited to learn new knowledge. I study at Galileo University and and I'm currently in the 6th semester. 
 
-Please visit my [Portfolio](https://main--clinquant-pasca-0c9480.netlify.app/)
+Please visit my [Portfolio](https://celestebatres.github.io/)
