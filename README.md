@@ -1,8 +1,10 @@
 <img src="http://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" min-width="450px" max-width="450px" width="450px" align="right" alt="Logo inicio">   
-#Portfolio
 
 
-##Professional Profile
+# Portfolio
+
+## Professional Profile
+
 
 Hello! My name is Celeste Batres and I am currently studying Systems Engineering. I have a strong passion for technology and programming, specifically in web development. I am proficient in English and always looking to expand my knowledge and skills in this field.
 
